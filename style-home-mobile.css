@@ -1,0 +1,139 @@
+.mobile-menu{
+	display: block;
+	width: 30px;
+	padding-left: 5%;
+	padding-top: 5%; 
+	height: 30px; 
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC') no-repeat scroll center center transparent; 
+
+}
+
+#menu .mm-list a.mm-subopen {
+	width: 100%;
+}
+
+
+#mobile #menu {
+	display: none;
+}
+
+ul.sub-menu {
+display: none;
+}
+
+	html, body {
+	font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#mobile {
+	padding-bottom: 260px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	overflow: hidden;
+	width: 100%;
+	background: url('images/house.png') bottom center no-repeat #1563ae;
+}
+
+#mobile .logo {
+	width: 187px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 35px;
+
+}
+
+#mobile #mobileInner {
+	width: 95%;
+	margin: auto;
+}
+
+#mobile ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#mobile h2 {
+	margin-top: 12px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#mobile h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+#mobile ul li {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 2px solid #4f8ac2;
+}
+
+#mobile ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	padding: 13px;
+
+}
+
+#mobile .featured {
+	overflow: hidden;
+	border: 3px solid #ffffff;
+	width: auto;
+	height: auto;
+}
+
+#mobile h3 a {
+	color: #ffffff;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+#mobile .featuredInner {
+
+}
+
+#mobile .featured p {
+	margin: 10px 10px 10px 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+#mobile .featured img {
+	float: left;
+	padding: 10px;
+}
+
+#mobile #socials {
+	width: 300px;
+	margin: auto;
+	padding-top: 60px;
+}
+
+#mobile #socials h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#mobile #socials img {
+	margin: 5px;
+	float: left;
+}
+
+#mobile .midSection {
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+
+#mobile ul li ul {
+	background:  rgb(79, 138, 194);
+}

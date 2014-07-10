@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+    <title><?php wp_title() ?></title>
+    <LINK REL=StyleSheet HREF="http://hbapdx.org/wp-content/themes/HBP/style-home-mobile.css" TYPE="text/css" >
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta name="description" content="<?php bloginfo('description'); ?>" />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <?php wp_head(); ?>
+
+
+
+
+
+    <script type="text/javascript" src="http://hbapdx.org/wp-content/themes/HBP/js/jquery.mmenu.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://hbapdx.org/wp-content/themes/HBP/js/jquery.mmenu.all.css" />
+    <script type="text/javascript">
+        (function($){
+            $(document).ready(function(){
+
+                var current_width = $(window).width();
+                //do responsive nav if < 480
+                if(current_width <= 480){
+                    $('#menu').mmenu({
+                        slidingSubmenus: false
+                    });
+                }
+
+
+                $('.menu-item-has-children > a').click(function(){
+                    return false; //prevent snapping to top of page for top level menu     links (mobile)
+                });
+
+            });
+
+        })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+<div id="mobile">
+
+
+
+    <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header', 'container_id'    => 'menu', 'theme_location' => 'primary' ) ); ?>
+    <div id="mobileInner">
+        <a class="mobile-menu"  href="#menu"></a>
+        <div class="logo">
+            <img src="http://hbapdx.org/wp-content/themes/HBP/images/logo.png" alt="logo" />
+        </div>
+
+        <?php echo do_shortcode('[dcwp-jquery-accordion menu="Mobile Top"]'); ?>
+
+
+
+
+        <!--WebLink:BodySubContent1-->
+        <div class="midSection">
+
+        <h1><!--WebLink:ContentTitle--></h1>
+        <div class="mc-weblink">
+        <!--WebLink:BodyContent1-->
+
+        <div id="socials">
+            <h2>Follow Us</h2>
+            <a href="https://www.facebook.com/HBAMP"><img src="http://hbapdx.org/wp-content/themes/HBP/images/facebook.png" alt="facebook" /></a>
+            <a href="https://twitter.com/hbaportland"><img src="http://hbapdx.org/wp-content/themes/HBP/images/twitter.png" alt="twitter" /></a>
+            <a href="http://www.linkedin.com/company/home-builders-association-of-metropolitan-portland"><img src="http://hbapdx.org/wp-content/themes/HBP/images/linkedin.png" alt="linkedin" /></a>
+            <a href="http://hbapdx.org/feed/"><img src="http://hbapdx.org/wp-content/themes/HBP/images/rss.png" alt="rss" /></a>
+        </div>
+
+    </div>
+</div>
+
+<?php wp_footer(); ?>
+</body>
+</html>
+
+
