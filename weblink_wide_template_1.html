@@ -20,27 +20,25 @@
             <meta name="author" content="Phoogoo.com">
 
 
-            <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-            <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_url'); ?>/superfish.css" />
-            <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_url'); ?>/style_newsFeeder.css" />
-            <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-            <link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/style-mobile.css" />
+            <link rel="shortcut icon" type="image/x-icon" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/favicon.ico">
+            <link rel="stylesheet" type="text/css" media="screen" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/superfish.css" />
+            <link rel="stylesheet" type="text/css" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP" />
+            <link rel="stylesheet" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/style-mobile.css" />
 
-            <!--[if gte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" media="screen, projection" /><![endif]-->
-            <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/css/ie6.css" media="screen, projection" /><![endif]-->
+            <!--[if gte IE 7]><link rel="stylesheet" type="text/css" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/css/ie7.css" media="screen, projection" /><![endif]-->
+            <!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/css/ie6.css" media="screen, projection" /><![endif]-->
 
             <script type="text/javascript"
                     src="http://w.sharethis.com/button/sharethis.js#publisher=00000000-0000-0000-0000-000000000000&type=website"></script>
             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-            <script type='text/javascript' src="<?php bloginfo('stylesheet_directory'); ?>/js/jScrollable.js"></script>
-            <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
+            <script type='text/javascript' src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/jScrollable.js"></script>
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/plugins.js"></script>
 
-            <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/contentslider.css" type="text/css" media="all" />
 
 
 
             <!-- Content Changer -->
-            <script type='text/javascript' src="<?php bloginfo('stylesheet_directory'); ?>/js/contentslider.js">
+            <script type='text/javascript' src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/contentslider.js">
                 /***********************************************
                  * Featured Content Slider- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
                  * This notice MUST stay intact for legal use
@@ -49,9 +47,9 @@
             </script>
 
 
-            <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/forms.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/forms.css" type="text/css" media="screen" />
 
-            <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slidebox.js"></script>
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/slidebox.js"></script>
             <script>
                 $(document).ready(function(){
                     $("#slide").slideBox({width: "100%", height: "200px", position: "bottom"});
@@ -59,9 +57,9 @@
             </script>
 
            <!-- Cufon Scripts -->
-            <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cufon-yui.js"></script>
-            <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/ChunkFive_400.font.js"></script>
-            <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/MgOpen_Moderna_400-MgOpen_Moderna_700.font.js"></script>
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/cufon-yui.js"></script>
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/ChunkFive_400.font.js"></script>
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/MgOpen_Moderna_400-MgOpen_Moderna_700.font.js"></script>
             <script type="text/javascript">
                 Cufon.replace('h1', { fontFamily: 'MgOpen Moderna' });
                 Cufon.replace('h2', { fontFamily: 'ChunkFive' });
@@ -92,8 +90,8 @@
 
 
 
-            <script type="text/javascript" src="<?php echo get_bloginfo('template_url'); ?>/js/jquery.mmenu.js"></script>
-            <link type="text/css" rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/js/jquery.mmenu.all.css" />
+            <script type="text/javascript" src="http://hbapdx.hbaadmin.com/wp-content/themes/HBP//js/jquery.mmenu.js"></script>
+            <link type="text/css" rel="stylesheet" href="http://hbapdx.hbaadmin.com/wp-content/themes/HBP/js/jquery.mmenu.all.css" />
 
 
 
@@ -243,29 +241,19 @@
         <div class="wrapper">
             <a class="mobile-menu"  href="#menu"></a>
 
-            <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-            <h1 class="subtitle"><?php the_title(); ?></h1>
+            <h1 class="subtitle"><!--WebLink:ContentTitle--></h1>
 
-            <?php
-        	/**
-        	 * If/Else for Custom Field.
-        	 *
-        	 * If no Sub Headline Custom Field is
-        	 * applied it will default to text below
-        	 *
-        	 */
-        	?>
-            <?php $SubHeadline = get_post_meta($post->ID, 'Sub Headline', true); ?>
-            <?php if ($SubHeadline != '') { ?>
-            <h2 class="subheader"><?php echo $SubHeadline; ?></h2>
-            <?php }else{ ?>
+
             <h2 class="subheader">Home Builders Association</h2>
-            <?php } ?>
 
             <div id="container mc" class="sub">
                 <div class="mainCol">
-                    <?php the_content(); ?>
+                    <!--WebLink:BodyContent1-->
+                    <div class="weblink-sub">
+                        <!--WebLink:BodySubContent1-->
+                    </div>
+
 
                     <div class="share">
                         <h2>Share &amp; Print</h2>
@@ -288,7 +276,6 @@
                     </div>
 
                 </div>
-                <?php endwhile; ?>
 
                 <?php get_sidebar(); ?>
 
