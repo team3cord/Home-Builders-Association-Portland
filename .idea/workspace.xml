@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc7cbfc1-c5eb-4b8f-88c6-6662e74552c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/hba.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header-home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style-home-mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style-mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template_home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblink_narrow_template_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weblink_wide_template_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weblink_narrow_template_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weblink_wide_template_1" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/weblink.css" afterPath="$PROJECT_DIR$/css/weblink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weblink_wide_template_1.html" afterPath="$PROJECT_DIR$/weblink_wide_template_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,79 +25,50 @@
     <favorites_list name="hba" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.27780822">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="weblink_narrow_template_1.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-39.375" vertical-offset="45" max-vertical-offset="1470">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header-home.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/header-home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="28" selection-start="1896" selection-end="1896" vertical-scroll-proportion="-15.625" vertical-offset="105" max-vertical-offset="4785">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template_home.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/template_home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-3.75" vertical-offset="60" max-vertical-offset="8565">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.088167" vertical-offset="900" max-vertical-offset="3090">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style-home-mobile.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style-home-mobile.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="weblink_wide_template_1.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="weblink_narrow_template_1.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="0" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.5949166" vertical-offset="346" max-vertical-offset="1605">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="30" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-26.25" vertical-offset="180" max-vertical-offset="1095">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="316" column="0" selection-start="9810" selection-end="9810" vertical-scroll-proportion="-15.791667" vertical-offset="4241" max-vertical-offset="5100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-home-mobile.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style-home-mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2205">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weblink_wide_template_1.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="294" column="0" selection-start="12679" selection-end="12679" vertical-scroll-proportion="0.7614213" vertical-offset="3555" max-vertical-offset="8460">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -127,8 +81,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/weblink_wide_template_1.html" />
         <option value="$PROJECT_DIR$/weblink_narrow_template_1.html" />
+        <option value="$PROJECT_DIR$/weblink_wide_template_1.html" />
       </list>
     </option>
   </component>
@@ -165,7 +119,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,6 +139,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +151,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php5.4.26/bin" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.weblink_narrow_template_1.html">
     <configuration default="false" name="weblink_narrow_template_1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/hba/weblink_narrow_template_1.html">
@@ -279,11 +234,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -305,6 +260,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="4560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="8160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style-home-mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="885">
           <folding />
         </state>
@@ -313,7 +316,13 @@
     <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -324,16 +333,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
+    <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
+        <state line="66" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-39.375" vertical-offset="45" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1896" selection-end="1896" vertical-scroll-proportion="-15.625" vertical-offset="105" max-vertical-offset="4785">
+        <state line="38" column="28" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="4560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-0.625" vertical-offset="225" max-vertical-offset="8655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="3981" selection-end="3981" vertical-scroll-proportion="3.112922" vertical-offset="251" max-vertical-offset="3090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="30" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-26.25" vertical-offset="180" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="0" selection-start="9810" selection-end="9810" vertical-scroll-proportion="-15.791667" vertical-offset="4241" max-vertical-offset="5100">
           <folding />
         </state>
       </provider>
@@ -345,24 +382,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_home.php">
+    <entry file="file://$PROJECT_DIR$/weblink_wide_template_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-3.75" vertical-offset="60" max-vertical-offset="8565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.088167" vertical-offset="900" max-vertical-offset="3090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weblink_narrow_template_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.5949166" vertical-offset="346" max-vertical-offset="1605">
-          <folding />
+        <state line="294" column="0" selection-start="12679" selection-end="12679" vertical-scroll-proportion="0.7614213" vertical-offset="3555" max-vertical-offset="8460">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
